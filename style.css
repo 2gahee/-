@@ -1,0 +1,135 @@
+body{
+	font-family: 'Noto Sans KR', sans-serif;   
+    margin: 0;
+	background-color: #edcdd4;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #edcdd4;
+	background-image: url('마멜다운로드.jpg');
+}
+
+ h1{
+    margin-top: 10;
+	font-size: 80px;
+
+}
+
+ img {
+	max-width: 300px;
+	height: auto;
+	border-radius: 50%;
+	margin-top: 10px;
+
+}
+
+  .image-container1 img {
+	
+	border-radius: 0;
+	max-width: 300px;
+	height: 10;
+	margin-top: 10px;
+
+  }
+  
+  .image-container2 img {
+	border-radius: 0;
+	max-width: 300px;
+	height: 20;
+	margin-top: 10px;
+  }
+  
+  .image-container3 img {
+	
+	border-radius: 0;
+	max-width: 300px;
+	height: auto;
+	margin-top: 10px;
+  }
+  
+
+main {
+	max-width: 800px;
+	margin: 30px auto;
+	padding: 30px;
+	background-color: #edcdd4;
+}
+
+h2{
+	font-size: 30px;
+}
+p{
+	font-size: 20px;
+}
+
+ul{
+	font-size: 20px;
+}
+
+section {
+	margin-bottom:10px;
+	height: 600px;
+}
+
+section {
+	margin-bottom: 150px;
+	height: 600px;
+}
+
+
+section {
+	margin-bottom: 150px;
+	height: 600px;
+}
+
+section {
+	margin-bottom: 150px;
+	height: 300px;
+}
+
+
+section {
+	margin-bottom: 150px;
+	background-color: #edcdd4;;
+	height: 600px;
+}
+
+
+h2 {
+	margin-top: 0;
+	
+}
+
+ul {
+	padding-left: 0;
+
+}
+
+button {
+	background-color: #ef9dc8; /* 버튼 배경색 */
+	color: rgb(19, 18, 18); /* 버튼 글자색 */
+	padding: 20px 32px; /* 버튼 안쪽 여백 */
+	border: none; /* 버튼 테두리 없앰 */
+	border-radius: 10px; /* 버튼 모서리를 둥글게 */
+	cursor: pointer; /* 마우스 커서를 손가락 모양으로 변경 */
+	top: 50px;
+	left: 100px;
+	width: 150px;
+	height: 75px;
+	margin-bottom: 300px;
+	margin-top: 150px;
+	margin-left: 0px;
+	justify-content: space-between;
+  }
+
+  .container {
+	width: 100%;
+	text-align: center;
+  }
+  
+  button:hover {
+	background-color: #efdee6; /* 마우스를 버튼 위로 올리면 배경색이 바뀜 */
+  }
